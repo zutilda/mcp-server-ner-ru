@@ -1,0 +1,10 @@
+[project]
+name = "mcp-server-ner-ru"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+    "natasha>=1.6.0",
+    "pydantic>=2",
+    "setuptools<81",
+]
